@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+html
+	head
+		meta(charset='utf-8')
+		meta(name='viewport' content='width=device-width initial-scale=1 maximum-scale=1')
+		block head_end
+			link(rel='stylesheet' href='/css/main.css') 
+		
+	body
+		block header
+			include ../_sections/_header.pug
+		main.main
+			.container
+				block content
+		block footer
+			include ../_sections/_footer.pug
+			
