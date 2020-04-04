@@ -11,7 +11,7 @@ Quickly get started with Bulma and Pug using Browserify and Gulp. Yet another on
 ## How to use
 
 Clone the repo
-`git clone git@github.com:rensite/Gulp-Bulma-Pug-Starter.git`
+`git clone git@github.com:rensite/BulmaGulp.git`
 
 Install packages:
 `yarn watch`
