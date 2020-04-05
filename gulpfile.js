@@ -38,7 +38,7 @@ function js () {
 
 function images () {
     return gulp.src(inputDir + '/images/**/*')
-        .pipe(gulp.dest('build/images'));
+        .pipe(gulp.dest(outputDir + '/images'));
 };
 
 function pages () {
