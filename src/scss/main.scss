@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
 // Import only what you need from Bulma
-@import "../../node_modules/bulma/sass/utilities/mixina.sass";
+@import "../../node_modules/bulma/sass/utilities/all.sass";
 @import "../../node_modules/bulma/sass/base/_all.sass";
 @import "../../node_modules/bulma/sass/elements/button.sass";
 @import "../../node_modules/bulma/sass/elements/container.sass";
@@ -13,6 +13,5 @@
 @import "../../node_modules/bulma/sass/components/navbar.sass";
 @import "../../node_modules/bulma/sass/layout/hero.sass";
 @import "../../node_modules/bulma/sass/layout/section.sass";
-@import "../../node_modules/bulma/sass/utilities/mixins.sass";
 
 @import "./_sections/_index";
